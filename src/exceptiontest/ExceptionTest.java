@@ -6,7 +6,7 @@ public class ExceptionTest {
             return Test.readInt();
         }
         catch () {
-
+            ;
         }
     }
 
