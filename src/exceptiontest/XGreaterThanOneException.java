@@ -1,4 +1,9 @@
 package exceptiontest;
 
-public class XGreaterThanOneException {
+public class XGreaterThanOneException extends Exception
+{
+    public String getInfo()
+    {
+        return "Too large";
+    }
 }
